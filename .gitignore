@@ -1,0 +1,11 @@
+.quarto/
+tmp/
+.DS_Store
+.Rhistory
+.RData
+*_files/
+*.pptx
+slides-rendered/
+
+/.quarto/
+**/*.quarto_ipynb
