@@ -1,7 +1,7 @@
 ---
 title: "Biostatistics & Epidemiology - Part 4"
 subtitle: "Measurement, Study Design, Causal Reasoning & Improvement"
-author: "Austin Meyer, MD, PhD, MS, MPH, MS"
+author: "Austin Meyer, MD, PhD, MS, MPH, MS, FACP, FAAP"
 date: "August 28, 2026"
 date-format: "MMMM D, YYYY"
 html-math-method: plain
