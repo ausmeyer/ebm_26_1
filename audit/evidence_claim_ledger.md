@@ -2,13 +2,13 @@
 
 Audit date: August 27, 2026
 
-The lecture is educational and does not provide patient-specific advice. The AAP PREP export supplied with the project is the source of the ten question stems and answer keys. External sources were used to check the teaching explanations and guardrails. Plot values are synthetic unless a figure explicitly reproduces values in a question stem.
+The lecture is educational and does not provide patient-specific advice. The project source bank's AAP PREP export is the source of the ten question stems and answer keys. External sources were used to check the teaching explanations and guardrails. Plot values are synthetic unless a figure explicitly reproduces values in a question stem.
 
 ## Claim ledger
 
 | Claim used in the deck | Claim type | Exact source | Supporting result or passage | Status | Contradictions and limitations |
 |---|---|---|---|---|---|
-| Stable incidence with longer disease duration increases prevalence. | Epidemiologic definition | `../../aap_questions/prep_statistics/prep_stats_1.pdf`, Question 10; Mann CJ. *Emerg Med J*. 2003;20:54-60. PMID [12533370](https://pubmed.ncbi.nlm.nih.gov/12533370/), DOI [10.1136/emj.20.1.54](https://doi.org/10.1136/emj.20.1.54) | The PREP rationale distinguishes the inflow of new cases from the pool living with disease. Mann defines incidence and prevalence and explains their different time dimensions. | Verified | The approximation `prevalence ≈ incidence × duration` is most useful under roughly steady-state conditions; the deck states this limitation in speaker notes. |
+| Stable incidence with longer disease duration increases prevalence. | Epidemiologic definition | AAP PREP learner-mode export, Question 10; Mann CJ. *Emerg Med J*. 2003;20:54-60. PMID [12533370](https://pubmed.ncbi.nlm.nih.gov/12533370/), DOI [10.1136/emj.20.1.54](https://doi.org/10.1136/emj.20.1.54) | The PREP rationale distinguishes the inflow of new cases from the pool living with disease. Mann defines incidence and prevalence and explains their different time dimensions. | Verified | The approximation `prevalence ≈ incidence × duration` is most useful under roughly steady-state conditions; the deck states this limitation in speaker notes. |
 | Repeatability without a reference standard assesses precision, not accuracy, sensitivity, or predictive value. | Measurement principle | PREP export, Question 24; FDA, [Statistical Guidance on Reporting Results from Studies Evaluating Diagnostic Tests](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda) | The PREP item keys precision. FDA guidance distinguishes agreement/repeatability analyses from comparisons against a reference standard. | Verified | Repeated measures alone cannot determine closeness to truth. |
 | Measuring exposure and outcome during the same short interval is cross-sectional and generally leaves temporality unresolved. | Study-design definition | PREP export, Question 20; Mann CJ. PMID [12533370](https://pubmed.ncbi.nlm.nih.gov/12533370/) | Mann describes cross-sectional studies as observations at one point in time; the PREP vignette measures video-game use and BMI in the same month. | Verified | Cross-sectional studies can estimate prevalence and association, but causal direction is often ambiguous. |
 | Random allocation provides the strongest listed design for estimating a treatment's causal effect. | Causal-design principle | PREP export, Question 22; Altman DG, Bland JM. *BMJ*. 1998;317:1301. DOI [10.1136/bmj.317.7168.1301](https://doi.org/10.1136/bmj.317.7168.1301); Nissen T, Wynn R. *BMC Res Notes*. 2014;7:264. PMID [24758689](https://pubmed.ncbi.nlm.nih.gov/24758689/) | Randomization makes assignment independent of baseline prognosis in expectation and supplies a concurrent counterfactual comparison. | Verified | Randomization does not rescue poor allocation concealment, follow-up, adherence, outcome measurement, or analysis. |
@@ -23,14 +23,14 @@ The lecture is educational and does not provide patient-specific advice. The AAP
 
 | Question | Source inconsistency | Disposition |
 |---|---|---|
-| Q19 | The answer key selects mortality as the reason to screen for PKU, while the critique states that mortality is unaffected and that screening improves quality of life. | Deferred until the source item is corrected or an explicit teaching correction is desired. |
-| Q36 | The answer key selects Pearson correlation for normal continuous before/after measurements in the same infants, while the stem structure and the source's own paired-test teaching point support a paired t test. | Deferred because the keyed answer and rationale are internally incompatible. |
+| Q19 | The answer key selects mortality as the reason to screen for PKU, while the critique states that mortality is unaffected and that screening improves quality of life. | Excluded because the keyed answer and rationale are internally incompatible. |
+| Q36 | The answer key selects Pearson correlation for normal continuous before/after measurements in the same infants, while the stem structure and the source's own paired-test teaching point support a paired t test. | Excluded because the keyed answer and rationale are internally incompatible. |
 | Q7 | The previously taught stem contains conflicting denominators in different sentences. | Recorded in `question_coverage.csv`; not reused. |
 | Q39 | The previously taught critique uses “95% certainty,” which is not a precise frequentist confidence-interval interpretation. | Recorded in `question_coverage.csv`; not reused. |
 
 ## Completion criteria
 
-- All 44 source questions mapped to a lecture or explicit deferral.
+- All 44 source questions mapped to a lecture or explicit disposition.
 - Ten new questions selected with no overlap across the three prior decks.
 - Each selected question has a keyed answer, explanation, distractor analysis or limitation, and speaker-note source trail.
 - Synthetic visuals are labeled and generated reproducibly.

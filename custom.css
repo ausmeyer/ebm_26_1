@@ -10,10 +10,12 @@
   --paper: #FFFFFF;
   --wash: #F7F8FC;
   --line: #D8DAE6;
+  --font-body: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-heading: "Cabin", "Avenir Next", "Segoe UI", sans-serif;
 }
 
 .reveal {
-  font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--font-body);
   font-size: 26px;
   color: var(--ink);
 }
@@ -26,7 +28,7 @@
 .reveal h2,
 .reveal h3,
 .reveal h4 {
-  font-family: "Cabin", "Avenir Next", Georgia, serif;
+  font-family: var(--font-heading);
   color: var(--primary);
   font-weight: 650;
   line-height: 1.12;
@@ -314,20 +316,6 @@
 .quiz-result .incorrect { color: var(--warning); }
 .quiz-result .prompt { color: #B26A00; }
 
-.incidence-options {
-  display: grid;
-  grid-template-columns: 76px 1fr 1fr;
-  column-gap: 0.55em;
-  align-items: center;
-}
-
-.incidence-options .opt-head {
-  color: var(--muted);
-  font-size: 0.78em;
-  font-weight: 700;
-  padding-bottom: 0.25em;
-}
-
 .modal {
   display: none;
   position: fixed;
@@ -335,6 +323,7 @@
   inset: 0;
   background: rgba(20, 20, 30, 0.62);
   overflow: auto;
+  font-family: var(--font-body);
 }
 
 .modal-content {
@@ -353,6 +342,7 @@
 }
 
 .modal-content h3 {
+  font-family: var(--font-heading);
   color: var(--primary);
   font-size: 1.25em;
   margin: 0 1.5em 0.45em 0;
@@ -362,6 +352,7 @@
 .modal-content li { margin-bottom: 0.3em; }
 
 .close-modal {
+  font-family: var(--font-body);
   color: var(--muted);
   position: absolute;
   right: 18px;
@@ -374,6 +365,11 @@
 
 .close-modal:hover,
 .close-modal:focus { color: var(--primary); }
+
+.quiz-container button,
+.quiz-container input {
+  font-family: var(--font-body);
+}
 
 .masking-table td:nth-child(n+2),
 .masking-table th:nth-child(n+2) { text-align: center; }

@@ -15,7 +15,7 @@ Interactive Quarto/Reveal.js lecture for pediatric residents, built from 10 prev
 9. Q16 - correlation and the coefficient of determination
 10. Q44 - run charts for quality improvement
 
-The complete 44-item coverage audit is in `question_coverage.csv`, and the source-backed claim audit is in `audit/evidence_claim_ledger.md`. Four unused items remain: Q14 and Q27 are deferred because they substantially repeat prior teaching; Q19 and Q36 are deferred because the source export's answer key conflicts with its own rationale.
+The complete 44-item coverage audit is in `question_coverage.csv`, and the source-backed claim audit is in `audit/evidence_claim_ledger.md`. Four questions were intentionally not included: Q14 and Q27 substantially repeat prior teaching, while Q19 and Q36 have answer keys that conflict with their own rationales.
 
 ## Render locally
 

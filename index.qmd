@@ -33,8 +33,6 @@ By the end of this session, you should be able to:
 - **Recognize** a nonrandom shift on a run chart after a process change.
 :::
 
-<p class="source-line">Population: pediatric residents; mixed outpatient, inpatient, research, and quality-improvement settings. Question 9 uses an adult dataset to teach a population-agnostic statistical concept.</p>
-
 ---
 
 ## How We'll Work Through Questions
@@ -63,9 +61,6 @@ Of the following, the BEST description of the overall incidence and prevalence o
 </p>
 
 <form id="quiz-form-1">
-  <div class="incidence-options" aria-hidden="true">
-  <span></span><span class="opt-head">Incidence</span><span class="opt-head">Prevalence</span>
-  </div>
   <label><input type="radio" name="answer-1" value="A"><span class="answer-text"><span class="answer-letter">A.</span> Increased incidence; increased prevalence</span></label>
   <label><input type="radio" name="answer-1" value="B"><span class="answer-text"><span class="answer-letter">B.</span> Increased incidence; stable prevalence</span></label>
   <label><input type="radio" name="answer-1" value="C"><span class="answer-text"><span class="answer-letter">C.</span> Stable incidence; increased prevalence</span></label>
@@ -79,7 +74,7 @@ Of the following, the BEST description of the overall incidence and prevalence o
 
 :::{.notes}
 [Sources]
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 10. User-provided 99-page learner-mode export dated 2025-08-28.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 10. Learner-mode export dated August 28, 2025.
 :::
 
 ---
@@ -99,7 +94,7 @@ Of the following, the BEST description of the overall incidence and prevalence o
 
 :::{.notes}
 [Sources]
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 10. User-provided export.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 10. Learner-mode export.
 - The prevalence approximation assumes a roughly steady state and is less reliable when incidence, migration, or survival changes rapidly.
 :::
 
@@ -112,7 +107,7 @@ Of the following, the BEST description of the overall incidence and prevalence o
 :::{.notes}
 [Sources]
 - Synthetic illustration generated for this lecture; no patient data.
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 10. User-provided export.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 10. Learner-mode export.
 :::
 
 ---
@@ -150,7 +145,7 @@ Of the following, the attribute of this test that could BEST be evaluated in the
 
 :::{.notes}
 [Sources]
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 24. User-provided export.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 24. Learner-mode export.
 :::
 
 ---
@@ -170,7 +165,7 @@ Of the following, the attribute of this test that could BEST be evaluated in the
 
 :::{.notes}
 [Sources]
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 24. User-provided export.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 24. Learner-mode export.
 - US Food and Drug Administration. Statistical Guidance on Reporting Results from Studies Evaluating Diagnostic Tests. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda
 :::
 
@@ -217,7 +212,7 @@ Of the following, the study DESIGN used by the practice was
 
 :::{.notes}
 [Sources]
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 20. User-provided export. The visible stem is condensed; counts and timing are unchanged.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 20. Learner-mode export. The visible stem is condensed; counts and timing are unchanged.
 :::
 
 ---
@@ -236,7 +231,7 @@ Of the following, the study DESIGN used by the practice was
 :::{.notes}
 [Sources]
 - Mann CJ. Observational research methods. Research design II: cohort, cross sectional, and case-control studies. Emerg Med J. 2003;20:54-60. PMID 12533370; PMCID PMC1726024; doi:10.1136/emj.20.1.54.
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 20. User-provided export.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 20. Learner-mode export.
 :::
 
 ---
@@ -294,7 +289,7 @@ Of the following, the MOST valid way to assess the causal effect of this herbal 
 
 :::{.notes}
 [Sources]
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 22. User-provided export. The stem is condensed for slide legibility.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 22. Learner-mode export. The stem is condensed for slide legibility.
 :::
 
 ---
@@ -306,7 +301,7 @@ Of the following, the MOST valid way to assess the causal effect of this herbal 
 <div class="flow-row">
   <div class="flow-node"><strong>Eligible children</strong></div>
   <div class="flow-arrow">→</div>
-  <div class="flow-node"><strong>Random allocation</strong><br>supplement or comparator</div>
+  <div class="flow-node"><strong>Random allocation</strong></div>
   <div class="flow-arrow">→</div>
   <div class="flow-node"><strong>Compare prespecified outcomes</strong></div>
 </div>
@@ -320,7 +315,7 @@ Of the following, the MOST valid way to assess the causal effect of this herbal 
 :::{.notes}
 [Sources]
 - Altman DG, Bland JM. Randomisation methods in controlled trials. BMJ. 1998;317:1301. doi:10.1136/bmj.317.7168.1301.
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 22. User-provided export.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 22. Learner-mode export.
 :::
 
 ---
@@ -359,7 +354,7 @@ Of the following, the MOST appropriate study design is a
 
 :::{.notes}
 [Sources]
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 23. User-provided export. The stem is condensed for slide legibility.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 23. Learner-mode export. The stem is condensed for slide legibility.
 :::
 
 ---
@@ -379,7 +374,7 @@ Of the following, the MOST appropriate study design is a
 :::{.notes}
 [Sources]
 - Nissen T, Wynn R. The clinical case report: a review of its merits and limitations. BMC Res Notes. 2014;7:264. PMID 24758689; PMCID PMC4001358; doi:10.1186/1756-0500-7-264.
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 23. User-provided export.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 23. Learner-mode export.
 :::
 
 ---
@@ -407,7 +402,7 @@ Of the following study designs, this randomized study is an example of a/an
 
 :::{.notes}
 [Sources]
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 25. User-provided export. The stem is condensed for slide legibility.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 25. Learner-mode export. The stem is condensed for slide legibility.
 :::
 
 ---
@@ -431,7 +426,7 @@ Of the following study designs, this randomized study is an example of a/an
 :::{.notes}
 [Sources]
 - Kahan BC, Cro S, Dore CJ, et al. Reducing bias in open-label trials where blinded outcome assessment is not feasible. Trials. 2014;15:456. doi:10.1186/1745-6215-15-456.
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 25. User-provided export.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 25. Learner-mode export.
 :::
 
 # Part 3: Association, Assumptions & Interpretation {background-color="#43418A"}
@@ -463,7 +458,7 @@ Of the following, the finding MOST likely to support a causative relationship is
 
 :::{.notes}
 [Sources]
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 18. User-provided export. This vignette is used only to teach causal reasoning and is not presented as evidence that cellular telephone towers cause autism.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 18. Learner-mode export. This vignette is used only to teach causal reasoning and is not presented as evidence that cellular telephone towers cause autism.
 :::
 
 ---
@@ -484,7 +479,7 @@ Of the following, the finding MOST likely to support a causative relationship is
 :::{.notes}
 [Sources]
 - Hill AB. The Environment and Disease: Association or Causation? Proc R Soc Med. 1965;58:295-300. PMID 14283879; PMCID PMC1898525; doi:10.1177/003591576505800503.
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 18. User-provided export.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 18. Learner-mode export.
 :::
 
 ---
@@ -524,7 +519,7 @@ Of the following, the t test is NOT an appropriate choice because the
 
 :::{.notes}
 [Sources]
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 15. User-provided export. All ages and counts are retained; framing is shortened for slide legibility.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 15. Learner-mode export. All ages and counts are retained; framing is shortened for slide legibility.
 :::
 
 ---
@@ -544,7 +539,7 @@ Of the following, the t test is NOT an appropriate choice because the
 
 :::{.notes}
 [Sources]
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 15. User-provided export. Its exact data yield the displayed means and medians.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 15. Learner-mode export. Its exact data yield the displayed means and medians.
 - The final nuance distinguishes the Mann-Whitney estimand from a mean comparison; it is included to avoid the common oversimplification that “nonnormal always means Mann-Whitney.”
 :::
 
@@ -556,7 +551,7 @@ Of the following, the t test is NOT an appropriate choice because the
 
 :::{.notes}
 [Sources]
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 15. User-provided export. Plotted values exactly reproduce the source stem; no patient data.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 15. Learner-mode export. Plotted values exactly reproduce the source stem; no patient data.
 :::
 
 ---
@@ -584,7 +579,7 @@ Of the following, the value that BEST estimates the proportion of variation in B
 
 :::{.notes}
 [Sources]
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 16. User-provided export. The source population is adult; the statistical calculation is population-agnostic, but the clinical association should not be generalized to children without pediatric evidence.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 16. Learner-mode export. The source population is adult; the statistical calculation is population-agnostic, but the clinical association should not be generalized to children without pediatric evidence.
 :::
 
 ---
@@ -607,7 +602,7 @@ Of the following, the value that BEST estimates the proportion of variation in B
 :::{.notes}
 [Sources]
 - Schober P, Boer C, Schwarte LA. Correlation Coefficients: Appropriate Use and Interpretation. Anesth Analg. 2018;126:1763-1768. PMID 29481436; doi:10.1213/ANE.0000000000002864.
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 16. User-provided export.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 16. Learner-mode export.
 :::
 
 ---
@@ -634,7 +629,7 @@ A before-and-after average can miss the process story.
 <p class="question compact">
 To reduce wait times for patients to receive chemotherapy during oncology clinic visits, a new procedure is implemented for ordering laboratory tests and writing chemotherapy orders before the visit. Six months later, clinic leaders request an update.
 <br><br>
-Of the following, the MOST appropriate method of determining whether this procedure resulted in the desired reduced wait times is to display the data on a
+Which display is MOST appropriate for determining whether this procedure reduced wait times?
 </p>
 
 <form id="quiz-form-10">
@@ -651,7 +646,7 @@ Of the following, the MOST appropriate method of determining whether this proced
 
 :::{.notes}
 [Sources]
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 44. User-provided export.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 44. Learner-mode export.
 :::
 
 ---
@@ -671,7 +666,7 @@ Of the following, the MOST appropriate method of determining whether this proced
 [Sources]
 - Perla RJ, Provost LP, Murray SK. The run chart: a simple analytical tool for learning from variation in healthcare processes. BMJ Qual Saf. 2011;20:46-51. doi:10.1136/bmjqs.2009.037895.
 - Institute for Healthcare Improvement. Run Chart Tool. https://www.ihi.org/library/tools/run-chart-tool. Inspected 2026-08-27.
-- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 44. User-provided export.
+- American Academy of Pediatrics. Basic PREP Statistics Assessment, Question 44. Learner-mode export.
 :::
 
 ---
@@ -726,6 +721,10 @@ Without looking back, name the answer to each:
 :::
 
 <div class="callout-key fragment"><strong>Answers:</strong> increases; precision; cross-sectional; 0.64; run chart.</div>
+
+# The End {background-color="#43418A"}
+
+Thank you. Questions?
 
 ```{=html}
 <script>
